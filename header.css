@@ -1,0 +1,119 @@
+header {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 55px 160px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+
+.nav-links {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    height: auto;
+}
+
+.nav-link a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--Very-Dark-Blue);
+    font-size: 15px;
+}
+
+.nav-link a:hover {
+    color: var(--Soft-Red);
+}
+
+.login-btn button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: var(--Soft-Red);
+    color: #fff;
+    outline: 0;
+    border: 2px solid var(--Soft-Red);
+    box-shadow: 0 1px 10px -1px var(--Soft-Red);
+    margin-right: 10px;
+}
+
+.login-btn button:hover {
+    color: var(--Soft-Red);
+    background: #fff;
+    border: 2px solid var(--Soft-Red);
+}
+
+.head-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-content h1{
+    font-size: 2.7rem;
+    letter-spacing: .1rem;
+    padding-bottom: 20px;
+    color: var(--Very-Dark-Blue);
+}
+
+.head-content p{
+    font-size: 1rem;
+    line-height: 25px;
+    color: var(--Grayish-Blue);
+    padding-bottom: 20px;
+}
+
+.btn-chrome{
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: var(--Soft-Blue);
+    color: #fff;
+    outline: 0;
+    border: 2px solid var(--Soft-Blue);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    box-shadow: 0 1px 10px -1px var(--Grayish-Blue);
+}
+
+.btn-chrome:hover {
+    color: var(--Soft-Blue);
+    background: #fff;
+    border: 2px solid var(--Soft-Blue);
+}
+
+.btn-firefox{
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    color: var(--Very-Dark-Blue);
+    outline: 0;
+    border: 2px solid rgb(247, 247, 247);
+    margin-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    box-shadow: 0 1px 10px -1px var(--Grayish-Blue);
+}
+
+.btn-firefox:hover {
+    color: var(--Very-Dark-Blue);
+    background: #fff;
+    border: 2px solid var(--Very-Dark-Blue);
+}
+
+.hero-img{
+    width: 40rem;
+    max-width: 100%;
+    height: 30rem;
+}
+
+.head-img-bg{
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,65 @@
+.extension{
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    box-shadow: 1px 1px 5px #c7c7c7;
+    margin: 3rem 30px;
+    border-radius: .5rem;
+    padding: 3rem 0;
+    width: 275px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.browse{
+    width: 8rem;
+    height: 10rem;
+    padding-bottom: 2rem;
+}
+
+.cards h2{
+    color: var(--Very-Dark-Blue);
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.cards p{
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+    padding-bottom: 2rem;
+}
+
+.dot{
+    width: 100%;
+    padding-bottom: 1.3rem;
+}
+
+.cards button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: var(--Soft-Blue);
+    color: #fff;
+    outline: 0;
+    border: 2px solid var(--Soft-Blue);
+    margin-right: 10px;
+}
+
+.cards button:hover {
+    color: var(--Soft-Blue);
+    background: #fff;
+    border: 2px solid var(--Soft-Blue);
+}
+
+.fire{
+ margin-top: 100px;
+}
+
+.op{
+    margin-top: 150px;
+}

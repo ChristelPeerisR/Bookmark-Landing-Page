@@ -1,0 +1,120 @@
+.features-box {
+    padding: 0px 100px;
+}
+
+.future {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    border-bottom: .1rem solid var(--Grayish-Blue);
+}
+
+.features-btn {
+    display: grid;
+    background-color: transparent;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    color: var(--Grayish-Blue);
+    padding: 1.25rem 0;
+    margin: 0 auto;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+}
+
+.features-btn:hover {
+    color: var(--Soft-Red);
+}
+
+.simple-bookmark {
+    border-bottom: .2rem solid var(--Soft-Red);
+    color: var(--Very-Dark-Blue);
+}
+
+.features-slide-wrapper{
+    width: 90%;
+    height: 600px;
+    padding: 60px 3rem 0px 3rem;
+    position: relative;
+}
+
+.features-slide{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: left;
+    gap: 3rem;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.features-img{
+    position: absolute;
+    top: -5rem;
+    left: 0;
+}
+
+.features-img-box{
+    width: 100%;
+    margin: 6rem 0 0 0;
+    position: relative;
+}
+
+.features-text{
+    padding-left: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+}
+
+.features-text h1{
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    padding-bottom: 20px;
+    color: var(--Very-Dark-Blue);
+}
+
+.features-text p{
+    font-size: 1rem;
+    line-height: 25px;
+    color: var(--Grayish-Blue);
+    padding-bottom: 20px;
+}
+
+.features-text button{
+    padding: 12px 35px;
+    border-radius: 10px;
+    background-color: var(--Soft-Blue);
+    color: #fff;
+    outline: 0;
+    border: 2px solid var(--Soft-Blue);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.features-text button:hover {
+    color: var(--Soft-Blue);
+    background: #fff;
+    border: 2px solid var(--Soft-Blue);
+}
+
+
+.features-slide-wrapper:before{
+    content: '';
+    background-image: url(images/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 60rem;
+    height: 34rem;
+    position: absolute;
+    top: 5rem;
+    left: -10rem;
+    z-index: -1;
+}
+
+.none{
+    display: none;
+}
