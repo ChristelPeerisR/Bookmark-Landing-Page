@@ -71,3 +71,7 @@ body:before{
     right: -.3rem;
     z-index: -1;
 }
+
+html{
+    scroll-behavior: smooth;
+}
